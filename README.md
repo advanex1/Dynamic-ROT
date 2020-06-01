@@ -1,4 +1,4 @@
-__ROT(i) DECODER__
+## __ROT(i) DECODER__
 
 I wrote this to deal with a CTF question that I had. I couldn't find one online that incremented this way. Kind of a "dynamic ROT".
 
