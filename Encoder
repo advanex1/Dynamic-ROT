@@ -1,3 +1,6 @@
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+punctuation = "!?:.\", _"
+numbers = "1234567890"
 encode_msg = ""
 def encode(msg):
     encoded_msg = ""
