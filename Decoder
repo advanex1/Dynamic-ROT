@@ -1,0 +1,20 @@
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+punctuation = "!?:.\", _"
+numbers = "1234567890"
+decode_msg = ""
+
+def decode(msg):
+    global decode_msg
+    decoded_msg = ""
+    rot = 0
+    for letters in msg:
+        if not letters in punctuation and not letters in numbers:
+            print(rot)
+            letter_value = alphabet.find(letters)
+            decoded_msg += alphabet[(letter_value + rot) % 26]
+        else:
+            decoded_msg += letters
+        rot -= 1        
+    return decoded_msg
+
+print(decode(decode_msg))
