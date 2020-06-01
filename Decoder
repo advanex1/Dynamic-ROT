@@ -1,3 +1,5 @@
+### Put this into a python script and run it. Ensure that you put the string you wish to decode inside the decode_msg string.
+
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 punctuation = "!?:.\", _"
 numbers = "1234567890"
