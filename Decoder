@@ -3,7 +3,7 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 punctuation = "!?:.\", _"
 numbers = "1234567890"
-decode_msg = ""
+decode_msg = "".lower()
 
 def decode(msg):
     decoded_msg = ""
