@@ -6,7 +6,6 @@ numbers = "1234567890"
 decode_msg = ""
 
 def decode(msg):
-    global decode_msg
     decoded_msg = ""
     rot = 0
     for letters in msg:
