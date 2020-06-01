@@ -1,0 +1,16 @@
+encode_msg = ""
+def encode(msg):
+    encoded_msg = ""
+    rot = 0
+    for letters in msg:
+        if msg[0]:
+            encoded_msg += letters
+        elif not letters in punctuation and not letters in numbers:
+            letter_value = alphabet.find(letters)
+            encoded_msg += alphabet[(letter_value + rot) % 26]
+        else:
+            encoded_msg += letters
+        rot += 1        
+    return encoded_msg
+
+print(encode(encode_msg))
